@@ -1,0 +1,11 @@
+name: Ola, mundo!
+
+on: [push]
+
+jobs:
+   ola_mundo_jobs:
+      runs-on: ubuntu-latest
+      steps:
+         - name: Ola, mundo!
+           run: echo "Ola, mundo!"
+         
